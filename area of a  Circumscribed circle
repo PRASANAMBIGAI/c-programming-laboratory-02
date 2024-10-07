@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+   float a,b,pi=3.14;
+   printf("Enter a number: ");
+   scanf("%f",&a);
+   b=pi*(a/2)*(a/2);
+   printf("%f",b);
+   return 0;
+}
