@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+   int n,q,m;
+   printf("Enter a number: ");
+   scanf("%d",&n);
+   m=n*n;
+   q=(3*m-2*n);
+   printf("%d",q);
+   return 0;
+}
