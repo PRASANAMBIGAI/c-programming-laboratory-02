@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+   int d,h,m,s,a,b,c,p;
+   scanf("%d %d %d %d",&d,&h,&m,&s);
+   a=d*864000;
+   b=h*3600;
+   c=m*60;
+   p=a+b+c+s;
+   printf("%d seconds",p);
+   return 0;
+}
