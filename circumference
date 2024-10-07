@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+    float A,pi=3.14,c;
+    scanf("%f",&A);
+    c=2*pi*A;
+    printf("%.2f",c);
+    return 0;
+}
