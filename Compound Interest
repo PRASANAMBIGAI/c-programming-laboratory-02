@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include<math.h>
+int main() 
+{
+    double a,p,r,t,ci;
+    printf("ENTER THE PRINCIPLE: ");
+    scanf("%lf",&p);
+    printf("ENTER THE RATE: ");
+    scanf("%lf",&r);
+    printf("ENTER THE TIME: ");
+    scanf("%lf",&t);
+    a=p*((pow((1+r/100),t)));
+    ci=a-p;
+    printf("THE COMPOUND INTREST: %lf",ci);
+    return 0;
+}
