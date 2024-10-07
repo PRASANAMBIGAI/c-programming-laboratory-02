@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+   float e,v;
+   printf("side=");
+   scanf("%f",&e);
+   v=(15+7*2.236)/4*(e*e*e);
+   printf("%f",v);
+   return 0;
+}
